@@ -24,7 +24,6 @@ const Exchangerino = () => {
       <h1 className={titleClassName} style={{ color: textColor }}>
         This is not yours.
       </h1>
-      <p>{dateInMs}</p>
     </div>
   );
 };
