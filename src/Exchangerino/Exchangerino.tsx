@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useClock } from './hooks';
 import './Exchangerino.css';
 
-const randomInt = (max) => Math.floor(Math.random() * max);
+const randomInt = (max: number) => Math.floor(Math.random() * max);
 const Exchangerino = () => {
   const [glitching, setGlitching] = useState(false);
   const [textColor, setTextColor] = useState('rgb(0,0,0)');
